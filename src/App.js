@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Btn>버튼</Btn>
+      <div>테스트1</div>
       <div>헤더작업</div>
       <Routes>
         <Route path='/' element={<div>메인페이지</div>} />
