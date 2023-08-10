@@ -11,6 +11,18 @@
 # production
 /build
 
+# txt 확장자를 가진건 무시
+.txt
+
+# 근데 abc.txt는 push함
+!abc.txt
+
+# 기존 폴더경로에서 abc폴더에있느건 전부 무시
+/abc
+
+# abc 폴더 안에 모든 txt파일 무시
+abc/*.txt
+
 # misc
 .DS_Store
 .env.local
