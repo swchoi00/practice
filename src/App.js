@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+import { styled } from 'styled-components';
+
+const Btn = styled.button`
+  background : pink;
+  font-size : 25px;
+`
 
 function App() {
   return (
     <div className="App">
+      <Btn>버튼</Btn>
       <div>헤더작업</div>
       <Routes>
         <Route path='/' element={<div>메인페이지</div>} />
